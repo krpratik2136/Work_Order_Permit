@@ -15,7 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CONFINED SPACE SUMMARY"
-            android:id="@+id/loginText"
             android:textSize="20dp"
             android:textStyle="bold"
             android:textAlignment="center"
@@ -27,18 +26,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="NAME OF THE CONTRACTOR/AGENCY/COMPANY* :"
-            android:id="@+id/loginText"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
 
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter the name" />-->
 
 
         <com.google.android.material.textfield.TextInputLayout
@@ -60,18 +52,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="LOCATION OF WORK* :"
-            android:id="@+id/loginText"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
 
-<!--        <EditText-->
-<!--            android:id="@+id/etLocation"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:hint="Enter the location" />-->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -91,18 +76,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SUB LOCATION* :"
-            android:id="@+id/loginText"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
 
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter the name" />-->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -122,7 +100,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TYPE OF WORK* :"
-            android:id="@+id/loginText"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -165,7 +142,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="PERSONAL INVOLVEMENT* :"
-            android:id="@+id/loginText"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -196,37 +172,12 @@
             android:text="Labour" />
 
 
-        <!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter the name" />-->
-
-        <!-- PLE Head -->
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="PLE HEAD* :"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="15dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etPleHead"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:hint="Enter PLE head name" />-->
 
         <!-- Factory Manager -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="FACTORY MANAGER* :"
-            android:id="@+id/loginText"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -243,7 +194,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="PROJECT MANAGER* :"
-            android:id="@+id/loginText"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -272,7 +222,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="DURATION* :"
-            android:id="@+id/loginText"
             android:textSize="15sp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -305,7 +254,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Work Commencement Date*"
-            android:id="@+id/loginText"
             android:textSize="15sp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -323,7 +271,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Permit Required Upto Date*"
-            android:id="@+id/loginText"
             android:textSize="15sp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -337,51 +284,11 @@
             android:layout_height="wrap_content"
             android:hint="Upto Date" />
 
-        <!-- Plant/Department -->
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="NATURE OF THE JOB TO BE CARRIED OUT IN BRIEF* :"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="15dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter in Brief" />-->
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="ACTIVITY TO BE CARRIED OUT* :"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="15dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter in Brief" />-->
-
-
-
-
-
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SUPERVISOR NAME* :"
-            android:id="@+id/loginText"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -389,7 +296,7 @@
 
 
         <EditText
-            android:id="@+id/etDepartment"
+            android:id="@+id/etSupervisorName"
             android:layout_width="match_parent"
             android:layout_margin="16dp"
             android:layout_height="wrap_content"
@@ -399,7 +306,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CONTACT NUMBER* :"
-            android:id="@+id/loginText"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -412,22 +318,6 @@
             android:layout_height="wrap_content"
             android:hint="Enter the Number" />
 
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="EMERGENCY ADDRESS* :"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="15dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter the name" />-->
 
         <TextView
             android:layout_width="match_parent"
@@ -439,12 +329,6 @@
             android:textColor="@color/purple"
             android:padding="10dp"/>
 
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter the number of preson requried" />-->
 
         <Button
             android:id="@+id/btnPlus"
@@ -469,360 +353,6 @@
             android:text="-"
             android:textSize="24sp"/>
 
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="EXPECTED TIME OF COMMENCEMENT JOB EACH DAY* :"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="15dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter the TIME OF COMMENCEMENT" />-->
-
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="EXPECTED TIME TO CLOSURE JOB EACH DAY* :"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="15dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="ENTER THE TIME TO CLOSURE" />-->
-
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="IF HOT WORK IS DONE IN CONFINED SPACE* :"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="15dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter " />-->
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Precautionary Measures: Caution board display near the main panal without fail doing the work"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="23dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textAlignment="center"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"-->
-<!--            android:layout_margin="5dp"/>-->
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Check Oxygen level(Min of 14%)*"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="17dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter " />-->
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Check Proper Ventilation*"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter " />-->
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="if requried LOTO need to apply*"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter " />-->
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="if requried LOTO need to apply*"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter " />-->
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Electrical Power supply 24v only*"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter " />-->
-
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="If required respiratory PPE's*"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"-->
-<!--            android:layout_margin="5dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter " />-->
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Check Illumination level (Min 100Lux)*"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"-->
-<!--            android:layout_margin="5dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter " />-->
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Record confined space entry and exit time*"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"-->
-<!--            android:layout_margin="5dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter " />-->
-
-<!--&lt;!&ndash; LAst &ndash;&gt;-->
-
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Area cleaning after completion of work*"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="20dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"-->
-<!--            android:layout_margin="5dp"/>-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etDepartment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_margin="16dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Enter " />-->
-
-
-
-
-
-<!--        &lt;!&ndash; Equipment &ndash;&gt;-->
-<!--        <TextView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="SELECTED EQUIPMENT/MACHINES(CODE)* :"-->
-<!--            android:id="@+id/loginText"-->
-<!--            android:textSize="15dp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:textColor="@color/purple"-->
-<!--            android:padding="10dp"/>-->
-
-<!--        <Spinner-->
-<!--            android:id="@+id/spEquipment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-<!--        <EditText-->
-<!--            android:id="@+id/spEquipment"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="" />-->
-
-<!--        &lt;!&ndash; Nature of Job &ndash;&gt;-->
-<!--        <Spinner-->
-<!--            android:id="@+id/spJobNature"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        &lt;!&ndash; Activity &ndash;&gt;-->
-<!--        <EditText-->
-<!--            android:id="@+id/etActivity"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Activity to be carried out" />-->
-
-<!--        &lt;!&ndash; Contractor Name &ndash;&gt;-->
-<!--        <EditText-->
-<!--            android:id="@+id/etContractorName"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Contractor/Agency Name" />-->
-
-<!--        &lt;!&ndash; Supervisor Name &ndash;&gt;-->
-<!--        <EditText-->
-<!--            android:id="@+id/etSupervisorName"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Supervisor Name" />-->
-
-<!--        &lt;!&ndash; Emergency Contact &ndash;&gt;-->
-<!--        <EditText-->
-<!--            android:id="@+id/etEmergencyContact"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Emergency Contact Number"-->
-<!--            android:inputType="phone" />-->
-
-<!--        &lt;!&ndash; Emergency Address &ndash;&gt;-->
-<!--        <EditText-->
-<!--            android:id="@+id/etEmergencyAddress"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Emergency Address" />-->
-
-<!--        &lt;!&ndash; Number of Persons &ndash;&gt;-->
-<!--        <EditText-->
-<!--            android:id="@+id/etPersons"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Number of Persons"-->
-<!--            android:inputType="number" />-->
-
-<!--        &lt;!&ndash; Work timings &ndash;&gt;-->
-<!--        <EditText-->
-<!--            android:id="@+id/etStartTime"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Expected start time" />-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/etEndTime"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="Expected end time" />-->
-
-        <!-- Hot work inside confined space -->
-<!--        <Spinner-->
-<!--            android:id="@+id/spHotWork"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        &lt;!&ndash; Precaution Checks &ndash;&gt;-->
-<!--        <Spinner-->
-<!--            android:id="@+id/spCheckOxygen"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        <Spinner-->
-<!--            android:id="@+id/spVentilation"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        <Spinner-->
-<!--            android:id="@+id/spLOTO"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        <Spinner-->
-<!--            android:id="@+id/spRespiratoryPPE"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        <Spinner-->
-<!--            android:id="@+id/spIllumination"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        <Spinner-->
-<!--            android:id="@+id/spRecordEntryExit"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        <Spinner-->
-<!--            android:id="@+id/spAreaCleaning"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
 
         <!-- SUBMIT BUTTON -->
         <Button
