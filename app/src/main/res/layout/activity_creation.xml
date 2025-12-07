@@ -353,6 +353,33 @@
             android:text="-"
             android:textSize="24sp"/>
 
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clearance Avaliable* :"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:padding="10dp"/>
+
+        <CheckBox
+            android:id="@+id/checkbox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supervisor " />
+
+        <CheckBox
+            android:id="@+id/checkbox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Technician" />
+
+        <CheckBox
+            android:id="@+id/checkbox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engineer" />
+
 
         <!-- SUBMIT BUTTON -->
         <Button

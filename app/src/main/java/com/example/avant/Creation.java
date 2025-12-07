@@ -112,6 +112,43 @@ public class Creation extends AppCompatActivity {
             }
         });
 
+        // Check box for  Clearance Avaiable
+
+            CheckBox checkbox5, checkbox6, checkbox7;
+
+            checkbox5 = findViewById(R.id.checkbox5);
+            checkbox6 = findViewById(R.id.checkbox6);
+            checkbox7 = findViewById(R.id.checkbox7);
+
+            // Listener for each checkbox
+
+            checkbox5.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                if (isChecked) {
+                    Toast.makeText(this, "Option 1 Selected", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(this, "Option 1 Unselected", Toast.LENGTH_SHORT).show();
+                }
+            });
+
+            checkbox6.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                if (isChecked) {
+                    Toast.makeText(this, "Option 1 Selected", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(this, "Option 1 Unselected", Toast.LENGTH_SHORT).show();
+                }
+            });
+
+            checkbox7.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                if (isChecked) {
+                    Toast.makeText(this, "Option 1 Selected", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(this, "Option 1 Unselected", Toast.LENGTH_SHORT).show();
+                }
+            });
+
+
+
+
         //Date
 
         EditText FromDate = findViewById(R.id.etFromDate);
