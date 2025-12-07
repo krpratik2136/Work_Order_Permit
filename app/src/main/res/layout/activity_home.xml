@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Work Permit Process"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_margin="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnWorkflow"
+            android:text="Workflow Creation Management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:layout_marginBottom="15dp"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btnPermitRequest"-->
+<!--            android:text="Work Permit Request"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="25dp"-->
+<!--            android:layout_marginBottom="15dp"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnApproval"-->
+<!--            android:text="Approval"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="15dp"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnGeneration"-->
+<!--            android:text="Work Permit Generation"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="15dp"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnCompleteCancel"-->
+<!--            android:text="Complete / Cancel Work Permit"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="15dp"/>-->
+
+        <Button
+            android:id="@+id/btnPDF"
+            android:text="PDF Generation"
+            android:layout_width="match_parent"
+            android:padding="25dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
