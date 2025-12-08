@@ -289,10 +289,6 @@ public class Creation extends AppCompatActivity {
                     intent.putExtra("commencement", commencement);
                     intent.putExtra("permitUpto", permitUpto);
 
-//                    intent.putExtra("c1", c1);
-//                    intent.putExtra("c2", c2);
-//                    intent.putExtra("c3", c3);
-//                    intent.putExtra("c4", c4);
 
                     intent.putExtra("c1", checkbox1.isChecked() ? "Selected" : "Not Selected");
                     intent.putExtra("c2", checkbox2.isChecked() ? "Selected" : "Not Selected");
@@ -303,14 +299,6 @@ public class Creation extends AppCompatActivity {
                     intent.putExtra("c6", checkbox6.isChecked() ? "Yes" : "No");
                     intent.putExtra("c7", checkbox7.isChecked() ? "Yes" : "No");
 
-//                    addRow("Checkbox 1", String.valueOf(c1));
-//                    addRow("Checkbox 2", String.valueOf(c2));
-//                    addRow("Checkbox 3", String.valueOf(c3));
-//                    addRow("Checkbox 4", String.valueOf(c4));
-//
-//                    addRow("Clearance 1", String.valueOf(ca1));
-//                    addRow("Clearance 2", String.valueOf(ca2));
-//                    addRow("Clearance 3", String.valueOf(ca3));
 
                     intent.putExtra("count", personCount);
                     intent.putExtra("refNumber", randomNum);

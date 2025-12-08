@@ -27,41 +27,12 @@
             android:padding="25dp"
             android:layout_marginBottom="15dp"/>
 
-<!--        <Button-->
-<!--            android:id="@+id/btnPermitRequest"-->
-<!--            android:text="Work Permit Request"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:padding="25dp"-->
-<!--            android:layout_marginBottom="15dp"/>-->
-
-<!--        <Button-->
-<!--            android:id="@+id/btnApproval"-->
-<!--            android:text="Approval"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="15dp"/>-->
-
-<!--        <Button-->
-<!--            android:id="@+id/btnGeneration"-->
-<!--            android:text="Work Permit Generation"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="15dp"/>-->
-
-<!--        <Button-->
-<!--            android:id="@+id/btnCompleteCancel"-->
-<!--            android:text="Complete / Cancel Work Permit"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="15dp"/>-->
-
         <Button
-            android:id="@+id/btnPDF"
-            android:text="PDF Generation"
+            android:id="@+id/btnAttendence"
+            android:text="Mark Attendence"
             android:layout_width="match_parent"
-            android:padding="25dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:padding="25dp"/>
 
     </LinearLayout>
 
