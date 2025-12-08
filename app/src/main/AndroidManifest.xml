@@ -11,8 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Avant">
-
-
+        <activity
+            android:name=".Attendence"
+            android:exported="false" />
+        <activity
+            android:name=".Display_report"
+            android:exported="false" />
         <activity
             android:name=".Signup"
             android:exported="false" />

@@ -233,7 +233,7 @@
 
         <EditText
             android:id="@+id/etFromDate"
-            android:hint="SELECT/ Date"
+            android:hint="SELECT/ FROM Date"
             android:focusable="false"
             android:clickable="true"
             android:layout_width="match_parent"
@@ -246,13 +246,13 @@
             android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="SELECT/ Date"
+            android:hint="SELECT/ TO Date"
             android:layout_margin="16dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Work Commencement Date*"
+            android:text="WORK COMMENCEMENT DATE*"
             android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -270,7 +270,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Permit Required Upto Date*"
+            android:text="PERMIT REQUIRED UPTO DATE*"
             android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
@@ -389,7 +389,7 @@
             android:id="@+id/btnSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit" />
+            android:text="APPLY" />
 
     </LinearLayout>
 </ScrollView>

@@ -237,38 +237,85 @@ public class Creation extends AppCompatActivity {
             txtCount.setText(String.valueOf(count[0]));
         });
 
-//      b = findViewById(R.layout.activity_creation);
-//      b.setOnClickListener(new View.OnClickListener() {
-//                               @Override
-//                               public void onClick(View v) {
-//                                   final AlertDialog.Builder alert_dialog = new AlertDialog.Builder(context);
-//                                   alert_dialog.setTitle("Confirmation");
-//                                   alert_dialog.setMessage("Are you sure you want to submit?");
-//
-//                               });
-//      }
-//
-
-
-//        Button btnSubmit = findViewById(R.id.btnSubmit);
-//        btnSubmit.setOnClickListener(v -> startActivity(new Intent(Creation.this, Home.class)));
-
-//            View btnSubmit = null;
             Button btnSubmit = findViewById(R.id.btnSubmit);
             btnSubmit.setOnClickListener(v -> {
 
                 // Generate random 6-digit number
                 int randomNum = (int)(Math.random() * 900000) + 100000;
 
-                // Show popup dialog
+                // Collect Dropdown values
+                String d1 = dropdown1.getText().toString();
+                String d2 = dropdown2.getText().toString();
+                String d3 = dropdown3.getText().toString();
+                String d4 = dropdown4.getText().toString();
+
+                // Collect Date values
+                String fromDate = FromDate.getText().toString();
+                String toDate = ToDate.getText().toString();
+                String commencement = CommencementDate.getText().toString();
+                String permitUpto = PermittedDate.getText().toString();
+
+                // Collect Checkboxes (true/false)
+                boolean c1 = getIntent().getBooleanExtra("c1", false);
+                boolean c2 = getIntent().getBooleanExtra("c2", false);
+                boolean c3 = getIntent().getBooleanExtra("c3", false);
+                boolean c4 = getIntent().getBooleanExtra("c4", false);
+
+                boolean c5 = getIntent().getBooleanExtra("ca1", false);
+                boolean c6 = getIntent().getBooleanExtra("ca2", false);
+                boolean c7 = getIntent().getBooleanExtra("ca3", false);
+
+
+                // Count
+                String personCount = txtCount.getText().toString();
+
+                // Popup Dialog
                 AlertDialog.Builder builder = new AlertDialog.Builder(Creation.this);
                 builder.setTitle("Submission Successful");
-                builder.setMessage("Your Request Number is: " + randomNum);
+                builder.setMessage("Your Reference Number: " + randomNum);
 
                 builder.setPositiveButton("OK", (dialog, which) -> {
-                    // Move to next page after clicking OK
-                    Intent intent = new Intent(Creation.this, Home.class);
-                    intent.putExtra("refNumber", randomNum); // optional
+
+                    Intent intent = new Intent(Creation.this, Display_report.class);
+
+                    // Sending values
+                    intent.putExtra("dropdown1", d1);
+                    intent.putExtra("dropdown2", d2);
+                    intent.putExtra("dropdown3", d3);
+                    intent.putExtra("dropdown4", d4);
+
+                    intent.putExtra("fromDate", fromDate);
+                    intent.putExtra("toDate", toDate);
+                    intent.putExtra("commencement", commencement);
+                    intent.putExtra("permitUpto", permitUpto);
+
+//                    intent.putExtra("c1", c1);
+//                    intent.putExtra("c2", c2);
+//                    intent.putExtra("c3", c3);
+//                    intent.putExtra("c4", c4);
+
+                    intent.putExtra("c1", checkbox1.isChecked() ? "Selected" : "Not Selected");
+                    intent.putExtra("c2", checkbox2.isChecked() ? "Selected" : "Not Selected");
+                    intent.putExtra("c3", checkbox3.isChecked() ? "Selected" : "Not Selected");
+                    intent.putExtra("c4", checkbox4.isChecked() ? "Selected" : "Not Selected");
+
+                    intent.putExtra("c5", checkbox5.isChecked() ? "Yes" : "No");
+                    intent.putExtra("c6", checkbox6.isChecked() ? "Yes" : "No");
+                    intent.putExtra("c7", checkbox7.isChecked() ? "Yes" : "No");
+
+//                    addRow("Checkbox 1", String.valueOf(c1));
+//                    addRow("Checkbox 2", String.valueOf(c2));
+//                    addRow("Checkbox 3", String.valueOf(c3));
+//                    addRow("Checkbox 4", String.valueOf(c4));
+//
+//                    addRow("Clearance 1", String.valueOf(ca1));
+//                    addRow("Clearance 2", String.valueOf(ca2));
+//                    addRow("Clearance 3", String.valueOf(ca3));
+
+                    intent.putExtra("count", personCount);
+                    intent.putExtra("refNumber", randomNum);
+
+
                     startActivity(intent);
                 });
 
@@ -276,5 +323,9 @@ public class Creation extends AppCompatActivity {
                 builder.show();
             });
 
+
         }
 }
+
+
+
