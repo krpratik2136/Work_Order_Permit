@@ -20,7 +20,7 @@ public class Home extends AppCompatActivity {
 
         Button btnAttendence = findViewById(R.id.btnAttendence);
         btnAttendence.setOnClickListener(view -> {
-            startActivity(new Intent(Home.this, Home.class));
+            startActivity(new Intent(Home.this, Attendence.class));
         });
     }
 }

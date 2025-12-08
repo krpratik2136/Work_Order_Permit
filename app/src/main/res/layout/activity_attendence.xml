@@ -19,23 +19,67 @@
             android:textColor="@color/purple"
             android:padding="25dp"
             android:layout_margin="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="      Name           |      Employee-ID"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple" />
         <CheckBox
             android:id="@+id/checkbox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kumal kishor" />
+            android:text="Kumal kishor        |                    782584" />
 
         <CheckBox
             android:id="@+id/checkbox2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tushar verma" />
+            android:text="Tushar verma       |                    782584" />
 
         <CheckBox
             android:id="@+id/checkbox3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Shreya kumari" />
+            android:text="Mansur khan        |                    782584" />
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kunal kumar         |                    782584" />
+
+        <CheckBox
+            android:id="@+id/checkbox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Murli verma          |                    782584" />
+
+        <CheckBox
+            android:id="@+id/checkbox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ayushi kumari      |                    782584" />
+
+        <CheckBox
+            android:id="@+id/checkbox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siddhesh khujur   |                    782584" />
+
+        <CheckBox
+            android:id="@+id/checkbox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tannu shree         |                    782584" />
+
+        <CheckBox
+            android:id="@+id/checkbox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ravi Gope             |                    782584" />
 
         <Button
             android:id="@+id/submit_attandance"

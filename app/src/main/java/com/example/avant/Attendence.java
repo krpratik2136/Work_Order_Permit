@@ -49,43 +49,43 @@ public class Attendence extends AppCompatActivity {
                 Toast.makeText(this, "Option 3 Selected", Toast.LENGTH_SHORT).show();
         });
 
-//        // Main button click
-//        Button btnSubmit = findViewById(R.id.btnSubmit);
-//        btnSubmit.setOnClickListener(v -> {
-//
-//
-//
-//            // Collect Checkboxes (true/false)
-//            boolean c1 = getIntent().getBooleanExtra("c1", false);
-//            boolean c2 = getIntent().getBooleanExtra("c2", false);
-//            boolean c3 = getIntent().getBooleanExtra("c3", false);
-//            boolean c4 = getIntent().getBooleanExtra("c4", false);
-//
-//
-//
-//
-//
-//            // Popup Dialog
-//            AlertDialog.Builder builder_new = new AlertDialog.Builder(Attendence.this);
-//            builder_new.setTitle("Submission Successful");
-//            builder_new.setMessage("Your Reference Number:");
-//
-//            builder_new.setPositiveButton("OK", (dialog, which) -> {
-//
-//                Intent intent = new Intent(Attendence.this, MainActivity.class);
-//
-//                startActivity(intent);
-//            });
-//
-//            builder_new.setCancelable(false);
-//            builder_new.show();
-//        });
+        // Main button click
+        Button btnSubmit = findViewById(R.id.submit_attandance);
+        btnSubmit.setOnClickListener(v -> {
 
-        Attend.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Attendence.this, MainActivity.class));
-            }
+
+
+            // Collect Checkboxes (true/false)
+            boolean c1 = getIntent().getBooleanExtra("c1", false);
+            boolean c2 = getIntent().getBooleanExtra("c2", false);
+            boolean c3 = getIntent().getBooleanExtra("c3", false);
+            boolean c4 = getIntent().getBooleanExtra("c4", false);
+
+
+
+
+
+            // Popup Dialog
+            AlertDialog.Builder builder_new = new AlertDialog.Builder(Attendence.this);
+            builder_new.setTitle("Submission Successful");
+            builder_new.setMessage("Attendence Submitted Successfully");
+
+            builder_new.setPositiveButton("OK", (dialog, which) -> {
+
+                Intent intent = new Intent(Attendence.this, MainActivity.class);
+
+                startActivity(intent);
+            });
+
+            builder_new.setCancelable(false);
+            builder_new.show();
         });
+
+//        Attend.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(Attendence.this, Home.class));
+//            }
+//        });
     }
 }
