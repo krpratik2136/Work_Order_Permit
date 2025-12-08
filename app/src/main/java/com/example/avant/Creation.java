@@ -263,7 +263,7 @@ public class Creation extends AppCompatActivity {
                 // Show popup dialog
                 AlertDialog.Builder builder = new AlertDialog.Builder(Creation.this);
                 builder.setTitle("Submission Successful");
-                builder.setMessage("Your Work Order Number is: " + randomNum);
+                builder.setMessage("Your Request Number is: " + randomNum);
 
                 builder.setPositiveButton("OK", (dialog, which) -> {
                     // Move to next page after clicking OK

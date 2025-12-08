@@ -14,19 +14,19 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CONFINED SPACE SUMMARY"
             android:textSize="20dp"
+            android:text="WORK PERMIT REQUEST"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="@color/purple"
-            android:padding="20dp"
+            android:padding="25dp"
             android:layout_margin="5dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="NAME OF THE CONTRACTOR/AGENCY/COMPANY* :"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
@@ -52,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="LOCATION OF WORK* :"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
@@ -76,7 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SUB LOCATION* :"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
@@ -99,8 +99,33 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="PLANT PROJECT MANAGER* :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:padding="10dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="SElECT/Project Manager"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/dropdown4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="none" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="TYPE OF WORK* :"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
@@ -142,7 +167,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="PERSONAL INVOLVEMENT* :"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
@@ -174,46 +199,23 @@
 
 
         <!-- Factory Manager -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="FACTORY MANAGER* :"
-            android:textSize="15dp"
-            android:textStyle="bold"
-            android:textColor="@color/purple"
-            android:padding="10dp"/>
-        <EditText
-            android:id="@+id/etFactoryManager"
-            android:layout_width="match_parent"
-            android:layout_margin="16dp"
-            android:layout_height="wrap_content"
-            android:hint="Enter Factory Manager Name" />
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="FACTORY MANAGER* :"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/purple"-->
+<!--            android:padding="10dp"/>-->
+<!--        <EditText-->
+<!--            android:id="@+id/etFactoryManager"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Enter Factory Manager Name" />-->
 
         <!-- Plant/Department -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="PROJECT MANAGER* :"
-            android:textSize="15dp"
-            android:textStyle="bold"
-            android:textColor="@color/purple"
-            android:padding="10dp"/>
 
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:hint="SElECT/Project Manager"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
-
-            <AutoCompleteTextView
-                android:id="@+id/dropdown4"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:inputType="none" />
-
-        </com.google.android.material.textfield.TextInputLayout>
 
         <!-- Duration -->
 
@@ -222,7 +224,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="DURATION* :"
-            android:textSize="15sp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="8dp"/>
@@ -231,13 +233,12 @@
 
         <EditText
             android:id="@+id/etFromDate"
-            android:hint="Select Date"
+            android:hint="SELECT/ Date"
             android:focusable="false"
             android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
-            android:padding="10dp"/>
+            android:layout_margin="16dp"/>
 
         <EditText
             android:id="@+id/etToDate"
@@ -245,16 +246,14 @@
             android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="To Date"
-            android:textSize="15sp"
-            android:padding="10dp"
-            />
+            android:hint="SELECT/ Date"
+            android:layout_margin="16dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Work Commencement Date*"
-            android:textSize="15sp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
@@ -265,13 +264,14 @@
             android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Commencement Date" />
+            android:hint="SELECT/ Date"
+            android:layout_margin="16dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Permit Required Upto Date*"
-            android:textSize="15sp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
@@ -282,14 +282,15 @@
             android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Upto Date" />
+            android:hint="SELECT/ Date"
+            android:layout_margin="16dp"/>
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SUPERVISOR NAME* :"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
@@ -306,7 +307,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CONTACT NUMBER* :"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
@@ -324,7 +325,7 @@
             android:layout_height="wrap_content"
             android:text="NUMBER OF PERSONS* :"
             android:id="@+id/loginText"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:textColor="@color/purple"
             android:padding="10dp"/>
@@ -332,10 +333,11 @@
 
         <Button
             android:id="@+id/btnPlus"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:text="+"
-            android:textSize="24sp"/>
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/outline_add_24"
+            android:textSize="24sp"
+            android:textColorHighlight="@color/cardview_dark_background" />
 
         <TextView
             android:id="@+id/txtCount"
@@ -343,21 +345,22 @@
             android:layout_height="wrap_content"
             android:text="0"
             android:textSize="24sp"
-            android:paddingLeft="20dp"
+            android:paddingLeft="30dp"
+            android:textAlignment="center"
             android:paddingRight="20dp"/>
 
         <Button
             android:id="@+id/btnMinus"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:text="-"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/outline_check_indeterminate_small_24"
             android:textSize="24sp"/>
 
         <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clearance Avaliable* :"
-        android:textSize="15dp"
+        android:text="CLEARANCE AVAILABLE* :"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/purple"
         android:padding="10dp"/>
@@ -366,19 +369,19 @@
             android:id="@+id/checkbox5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Supervisor " />
+            android:text="EHS " />
 
         <CheckBox
             android:id="@+id/checkbox6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Technician" />
+            android:text="SECURITY" />
 
         <CheckBox
             android:id="@+id/checkbox7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Engineer" />
+            android:text="SAFETY" />
 
 
         <!-- SUBMIT BUTTON -->
