@@ -1,8 +1,11 @@
 package com.example.avant;
 
+import android.app.AlertDialog;
 import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
@@ -23,6 +26,9 @@ public class Creation extends AppCompatActivity {
         String[] item4 = {"Akash dubey", "Rama Rao", "Murali vijay"};
 
         AutoCompleteTextView dropdown1, dropdown2, dropdown3, dropdown4;
+
+     Button b;
+     final Context context = this;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -231,7 +237,44 @@ public class Creation extends AppCompatActivity {
             txtCount.setText(String.valueOf(count[0]));
         });
 
-        Button btnSubmit = findViewById(R.id.btnSubmit);
-        btnSubmit.setOnClickListener(v -> startActivity(new Intent(Creation.this, Home.class)));
-    }
+//      b = findViewById(R.layout.activity_creation);
+//      b.setOnClickListener(new View.OnClickListener() {
+//                               @Override
+//                               public void onClick(View v) {
+//                                   final AlertDialog.Builder alert_dialog = new AlertDialog.Builder(context);
+//                                   alert_dialog.setTitle("Confirmation");
+//                                   alert_dialog.setMessage("Are you sure you want to submit?");
+//
+//                               });
+//      }
+//
+
+
+//        Button btnSubmit = findViewById(R.id.btnSubmit);
+//        btnSubmit.setOnClickListener(v -> startActivity(new Intent(Creation.this, Home.class)));
+
+//            View btnSubmit = null;
+            Button btnSubmit = findViewById(R.id.btnSubmit);
+            btnSubmit.setOnClickListener(v -> {
+
+                // Generate random 6-digit number
+                int randomNum = (int)(Math.random() * 900000) + 100000;
+
+                // Show popup dialog
+                AlertDialog.Builder builder = new AlertDialog.Builder(Creation.this);
+                builder.setTitle("Submission Successful");
+                builder.setMessage("Your Work Order Number is: " + randomNum);
+
+                builder.setPositiveButton("OK", (dialog, which) -> {
+                    // Move to next page after clicking OK
+                    Intent intent = new Intent(Creation.this, Home.class);
+                    intent.putExtra("refNumber", randomNum); // optional
+                    startActivity(intent);
+                });
+
+                builder.setCancelable(false);
+                builder.show();
+            });
+
+        }
 }
